@@ -11,3 +11,26 @@
     }
     .container__titulo, .container__frase{
     display:none;
+
+
+
+
+
+@media screen and (min-width: 820px) {
+    .conteiner_título, .container__titulo--negrito {
+        font-size: 30px;
+    }
+
+    .conteiner_título {
+        font-weight: 400;
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container__frase {
+        padding-left: 5em;
+        font-size: 20px;
+        display: block;
+    }
+}
